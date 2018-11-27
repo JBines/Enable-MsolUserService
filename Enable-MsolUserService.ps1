@@ -81,17 +81,13 @@ ForEach ($User in $LicensedUsers) {
 
     #Set Servcie Variables - Change to Enabled for default changes
     $BPOS_S_TODO_2 = "Disabled"; 
-
-    $FORMS_PLAN_E3 = "Enabled";     #$FORMS_PLAN_E3 = "Disabled"; 
-
+    $FORMS_PLAN_E3 = "Disabled"; #$FORMS_PLAN_E3 = "Enabled";     
     $STREAM_O365_E3 = "Disabled"; 
     $Deskless = "Disabled"; 
     $FLOW_O365_P2 = "Disabled"; 
     $POWERAPPS_O365_P2 = "Disabled"
-
-    $TEAMS1 = "Enabled";     #$TEAMS1 = "Disabled"; 
-    $PROJECTWORKMANAGEMENT = "Enabled";     #$PROJECTWORKMANAGEMENT = "Disabled"; 
-
+    $TEAMS1 = "Disabled"; #$TEAMS1 = "Enabled";     
+    $PROJECTWORKMANAGEMENT = "Disabled"; #$PROJECTWORKMANAGEMENT = "Enabled";     
     $SWAY = "Disabled"; 
     $INTUNE_O365 = "Disabled"; 
     $YAMMER_ENTERPRISE = "Disabled"; 
